@@ -24,7 +24,7 @@ export default function Home( { }: HomeProps ) {
                 <Image
                   width={15}
                   height={15} 
-                  src={'/../public/img/people.svg'} 
+                  src={'/./../public/img/people.svg'} 
                   alt={'profile'}
                   objectFit="cover"
                 />
@@ -33,7 +33,7 @@ export default function Home( { }: HomeProps ) {
                     <Image
                   width={15}
                   height={15} 
-                  src={'/../public/img/bell.svg'} 
+                  src={'/./../public/img/bell.svg'} 
                   alt={'profile'}
                   objectFit="cover"
                 />
@@ -42,7 +42,7 @@ export default function Home( { }: HomeProps ) {
                     <Image
                   width={15}
                   height={15} 
-                  src={'/../public/img/house-door.svg'} 
+                  src={'/./../public/img/house-door.svg'} 
                   alt={'profile'}
                   objectFit="cover"
                 />
@@ -58,7 +58,7 @@ export default function Home( { }: HomeProps ) {
                 <Image
                   width={15}
                   height={15} 
-                  src={'/../public/img/bell.svg'} 
+                  src={'/./../public/img/bell.svg'} 
                   alt={'profile'}
                   objectFit="cover"
                 />
@@ -67,7 +67,7 @@ export default function Home( { }: HomeProps ) {
                 <Image
                   width={15}
                   height={15} 
-                  src={'/../public/img/journal.svg'} 
+                  src={'/./../public/img/journal.svg'} 
                   alt={'profile'}
                   objectFit="cover"
                 />
@@ -76,7 +76,7 @@ export default function Home( { }: HomeProps ) {
                 <Image
                   width={15}
                   height={15} 
-                  src={'/../public/img/gear.svg'} 
+                  src={'/./../public/img/gear.svg'} 
                   alt={'profile'}
                   objectFit="cover"
                 />
@@ -85,7 +85,7 @@ export default function Home( { }: HomeProps ) {
                 <Image
                   width={15}
                   height={15} 
-                  src={'/public/img/people.svg'} 
+                  src={'/./../public/img/people.svg'} 
                   alt={'profile'}
                   objectFit="cover"
                 />
@@ -107,7 +107,7 @@ export default function Home( { }: HomeProps ) {
                         <Image
                             width={0}
                             height={0} 
-                            src={'/../public/img/flag.svg'} 
+                            src={'/./../public/img/flag.svg'} 
                             alt={'profile'}
                             objectFit="cover"
                         />
@@ -120,7 +120,7 @@ export default function Home( { }: HomeProps ) {
                         <Image
                             width={0}
                             height={0} 
-                            src={'/../public/img/flag.svg'} 
+                            src={'/./../public/img/flag.svg'} 
                             alt={'profile'}
                             objectFit="cover"
                         />
@@ -134,7 +134,7 @@ export default function Home( { }: HomeProps ) {
                         <Image
                             width={0}
                             height={0} 
-                            src={'/../public/img/flag.svg'} 
+                            src={'/./../public/img/flag.svg'} 
                             alt={'profile'}
                             objectFit="cover"
                         />
