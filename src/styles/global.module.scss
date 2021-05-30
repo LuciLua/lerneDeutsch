@@ -1,17 +1,3 @@
-*, *::after, *::before{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body{
-    width: 100%;
-    height: 100%;
-    background-color: #fff;
-
-}
-
-
 .menu{
     background-color: #0074DC;
     width: 100%;
@@ -97,15 +83,7 @@ body{
 
 /* Começo main */
 
-main{
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    height: calc(100vh - 40px);
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 /* começo menu verical */
 
 .menuVertical{
@@ -189,7 +167,7 @@ main{
 
 }
 
-::-webkit-scrollbar{display: none;}
+// ::-webkit-scrollbar{display: none;}
 
 .mural{
     /* border: #0074DC 1px solid; */
