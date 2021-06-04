@@ -20,20 +20,22 @@ export default function Home( { }: HomeProps ) {
                 </ul>
 
                 <ul className={styles.menuRight}>
-                    <li className={styles.itemRight}><a href="">                 
+                    <li className={styles.itemRight}>
+                        <a href="">                    
                 <Image
                   width={15}
                   height={15} 
-                  src={'/../public/people.svg'} 
+                  src={'/bell.svg'} 
                   alt={'profile'}
                   objectFit="cover"
                 />
-                    </a></li>
+                    </a>
+                    </li>
                     <li className={styles.itemRight}><a href="">
                     <Image
                   width={15}
-                  height={15} 
-                  src={'/../public/bell.svg'} 
+                  height={15}
+                  src={"/gear.svg"} 
                   alt={'profile'}
                   objectFit="cover"
                 />
@@ -42,7 +44,7 @@ export default function Home( { }: HomeProps ) {
                     <Image
                   width={15}
                   height={15} 
-                  src={'/../public/house-door.svg'} 
+                  src={'/house-door.svg'} 
                   alt={'profile'}
                   objectFit="cover"
                 />
@@ -53,43 +55,53 @@ export default function Home( { }: HomeProps ) {
 
     <main>
         <div className={styles.menuVertical}>
+            <div className={styles.push}></div>
             <ul>
                 <li><a href="">
+                <div className={styles.imgMenu}>
                 <Image
                   width={15}
                   height={15} 
-                  src={'/../public/bell.svg'} 
+                  src={'/bell.svg'} 
                   alt={'profile'}
                   objectFit="cover"
                 />
+                </div>
                 Benachrichtigungen</a></li>
+
                 <li><a href="">
+                <div className={styles.imgMenu}>
                 <Image
                   width={15}
                   height={15} 
-                  src={'/../public/journal.svg'} 
+                  src={'/journal.svg'} 
                   alt={'profile'}
                   objectFit="cover"
                 />
+                </div>
                 Mein Notebook</a></li>
                 <li><a href="">
+                <div className={styles.imgMenu}>
                 <Image
                   width={15}
                   height={15} 
-                  src={'/../public/gear.svg'} 
+                  src={'/gear.svg'} 
                   alt={'profile'}
                   objectFit="cover"
                 />
-                    die Einstellungen</a></li>
+                </div>
+                die Einstellungen</a></li>
                 <li><a href="">
+                <div className={styles.imgMenu}>
                 <Image
                   width={15}
                   height={15} 
-                  src={'/../public/people.svg'} 
+                  src={'/people.svg'} 
                   alt={'profile'}
                   objectFit="cover"
                 />
-                    Komm zurück</a></li>
+                </div>
+                Komm zurück</a></li>
 
             </ul>
         </div>   
@@ -107,7 +119,7 @@ export default function Home( { }: HomeProps ) {
                         <Image
                             width={0}
                             height={0} 
-                            src={'/../public/flag.svg'} 
+                            src={'/flag.svg'} 
                             alt={'profile'}
                             objectFit="cover"
                         />
@@ -120,7 +132,7 @@ export default function Home( { }: HomeProps ) {
                         <Image
                             width={0}
                             height={0} 
-                            src={'/../public/flag.svg'} 
+                            src={'/flag.svg'} 
                             alt={'profile'}
                             objectFit="cover"
                         />
@@ -134,7 +146,7 @@ export default function Home( { }: HomeProps ) {
                         <Image
                             width={0}
                             height={0} 
-                            src={'/../public/flag.svg'} 
+                            src={'/flag.svg'} 
                             alt={'profile'}
                             objectFit="cover"
                         />
