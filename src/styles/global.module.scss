@@ -361,14 +361,24 @@
 
       top: 0;
 
-      position: fixed;
+      position: absolute;
 
       background-color: rgb(57, 57, 67);
 
       z-index: 999;
+      
+      right: 99%;
+      transition: 2s;
+      
 
-      display: none;
     }
+
+    .menuVertical:active{
+        right: 0;
+        transition: 2s;
+    }
+
+
     .menuVerticalV{ 
         display: block;
     }
