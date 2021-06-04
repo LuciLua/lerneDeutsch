@@ -101,14 +101,23 @@
     width: 60px;
     height: 60px;
 
-    background-color: #393943;
+    background:#393943;
+
+    transform: rotate(-90deg);
 
     position: relative;
+
+    backdrop-filter: blur(2px);
 
     border-radius: 50%;
 
     margin-left: auto;
     left: 25px;
+    top: 35px;
+
+    display: none;
+
+    z-index: -10;
 
 }
 
@@ -384,10 +393,16 @@
 
       background-color: rgb(57, 57, 67);
 
-      z-index: 999;
+      z-index: 30;
       
       right: 100%;
       transition: 2s;
+    }
+
+    .menuVertical .push{
+        display: block;
+        position: relative;
+        z-index: 28;
     }
 
     .menuVertical ul{
