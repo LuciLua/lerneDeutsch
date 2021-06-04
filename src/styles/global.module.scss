@@ -367,14 +367,15 @@
 
       z-index: 999;
       
-      right: 99%;
+      right: 95%;
       transition: 2s;
       
 
     }
 
-    .menuVertical:active{
+    .menuVertical:hover{
         right: 0;
+        height: 90vh;
         transition: 2s;
     }
 

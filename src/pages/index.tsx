@@ -24,7 +24,7 @@ export default function Home( { }: HomeProps ) {
                 <Image
                   width={15}
                   height={15} 
-                  src={'/../public/people.svg'} 
+                  src={'/.../public/people.svg'} 
                   alt={'profile'}
                   objectFit="cover"
                 />
