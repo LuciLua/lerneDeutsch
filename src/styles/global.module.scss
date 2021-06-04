@@ -178,7 +178,6 @@
     height: calc(95vh - 40px);
 
     display: flex;
-    align-items: center;
     justify-content: center;
 
     flex-wrap: wrap;
@@ -199,7 +198,7 @@
 
     background-color: rgba(199, 193, 193, 0.153);
 
-    position: absolute;
+    position: relative;
 }
 
 .mural .title h1::first-line{
