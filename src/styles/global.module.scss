@@ -419,6 +419,8 @@
 
     .menuVertical .push::before{
         content: '|||';
+        font-size: 25px;
+        line-height: 0.5;
     }
 
     .menuVertical ul{
