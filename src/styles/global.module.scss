@@ -8,6 +8,8 @@
     z-index: 10;
 
     position: relative;
+
+    box-shadow: rgba(0, 0, 0, 0.297) 0 -2px 13px;
 }
 
 .menu .menuRight{
@@ -97,30 +99,6 @@
     margin-right: auto;
 }
 
-.menuVertical .push{
-    width: 60px;
-    height: 60px;
-
-    background:#393943;
-
-    transform: rotate(-90deg);
-
-    position: relative;
-
-    backdrop-filter: blur(2px);
-
-    border-radius: 50%;
-
-    margin-left: auto;
-    left: 25px;
-    top: 35px;
-
-    display: none;
-
-    z-index: -10;
-
-}
-
 .menuVertical ul{
     list-style: none;
     width: 80%;
@@ -128,14 +106,13 @@
 }
 
 .menuVertical ul li{
-    margin: 20px 20px 0px 20px;
-    width: 100%;
+    margin: 20px 20px 0px 15px;
+    width: calc(100% + 5%);
     height: 40px;
 
     display: flex;
     align-items: center;
-
-    padding: 0px 0px 0px 5px;
+    justify-content: center;
 }
 
 .menuVertical ul li:hover{
@@ -170,11 +147,12 @@
     height: 25px;
 
     margin-right: 15px;
+    margin-left: 5px;
 }
 
 .menuVertical ul li a img{
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
 
     filter: invert(0.8);
 }
@@ -203,14 +181,14 @@
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.208);
 
     width: 100%;
-    height: calc(95vh - 40px);
+    height: calc(100vh - 40px);
 
     display: flex;
     justify-content: center;
 
     flex-wrap: wrap;
 
-    margin: 20px;
+    margin: 0px;
 
     position: relative;
     overflow-y: scroll;
@@ -219,22 +197,27 @@
 .mural .title{
     top: 0;
 
-    margin: 0;
-
     width: 100%;
     height: fit-content;
 
-    background-color: rgba(199, 193, 193, 0.153);
+    margin: 0 0 35px 0;
+
+    background-color: rgb(255, 255, 255);
+
+    box-shadow:  0 -1px 1px rgba(0, 0, 0, 0.078) inset;
 
     position: relative;
+
+    padding: 20px;
 }
 
 .mural .title h1::first-line{
     font-family: Arial;
-    font-size: 24px;
+    font-size: 34px;
 
+    color: #2d2d2d;
 
-    color: #e42c5d;
+    font-weight: 600;
 }
 .mural .title h1{
     font-family: Arial;
@@ -242,7 +225,9 @@
     font-size: 17px;
     margin-top: 30px;
     margin-bottom: 30px;
-    color: rgb(208, 208, 208);
+    color: rgba(57, 57, 57, 0.749);
+
+    font-weight: 100;
 
 
     line-height: 1.5;
@@ -360,8 +345,13 @@
         margin: 4px;
     }
 
+    .menu .menuLeft .itemLeft{
+        margin-left: 40px;
+        font-size: 23px;
+    }
+
     .baseMural{
-        width: 95%;
+        width: 100%;
         margin: 0;
         height: fit-content;
     }
@@ -373,7 +363,7 @@
     .mural{
         width: 100%;
         margin: 0;
-        height: calc(95vh - 40px);
+        height: calc(100vh - 40px);
 
         overflow-y: scroll;
     }
@@ -400,9 +390,35 @@
     }
 
     .menuVertical .push{
-        display: block;
         position: relative;
         z-index: 28;
+
+        background-color: #0074DC;
+
+        content: attr('|||');
+
+        width: 45px;
+        height: 45px;
+    
+        transform: rotate(-90deg);
+    
+        position: relative;
+        
+        margin-left: auto;
+        left: 45px;
+        top: -5px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        font-size: 30px;
+        color: #fff;
+    
+    }
+
+    .menuVertical .push::before{
+        content: '|||';
     }
 
     .menuVertical ul{
@@ -410,13 +426,10 @@
     }
 
     .menuVertical:hover{
-        right: 5%;
+        right: 9%;
         transition: 2s;
-    }
+        margin: 0;
 
-
-    .menuVerticalV{ 
-        display: block;
     }
 
     .menuVertical ul li:last-of-type{
