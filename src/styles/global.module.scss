@@ -374,6 +374,7 @@
 
       height: 100vh;
       min-height: 100vh;
+      max-height: 100vh;
 
       margin: 0;
 
@@ -387,6 +388,11 @@
       
       right: 100%;
       transition: 2s;
+    }
+
+    .menuVertical:hover{
+      overflow: hidden;
+
     }
 
     .menuVertical .push{

@@ -3,6 +3,7 @@ import styles from '../styles/global.module.scss'
 import Head from 'next/head'
 
 import Image from 'next/image' 
+import { textChangeRangeNewSpan } from 'typescript'
 
 type HomeProps = { }
 
@@ -54,7 +55,7 @@ export default function Home( { }: HomeProps ) {
             </div>
 
     <main>
-        <div className={styles.menuVertical}>
+        <div className={styles.menuVertical} title={styles.menuVertical}>
             <div className={styles.push}></div>
             <ul>
                 <li><a href="">
