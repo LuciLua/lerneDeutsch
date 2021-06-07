@@ -9,11 +9,13 @@ function MyApp({ Component, pageProps }) {
 
   return(
     <>
+    <div>
       <Menu/>
         <main>
         <MenuVertical/>
               <Component {...pageProps} />
         </main>
+    </div>
     </>
   )
 }
