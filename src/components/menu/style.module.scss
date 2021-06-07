@@ -79,3 +79,23 @@
     cursor: pointer;
     
 }
+
+@media only screen and (max-width: 600px) {
+
+    .main{
+        overflow: hidden;
+        height: fit-content;
+
+        position: relative;
+    }
+
+    .menu .menuRight .itemRight{
+        margin: 4px;
+    }
+
+    .menu .menuLeft .itemLeft{
+        margin-left: 40px;
+        font-size: 23px;
+    }
+
+}
