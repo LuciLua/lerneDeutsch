@@ -8,14 +8,12 @@ import { Menu } from '../components/menu';
 function MyApp({ Component, pageProps }) {
 
   return(
-
     <>
       <Menu/>
         <main>
         <MenuVertical/>
               <Component {...pageProps} />
         </main>
-
     </>
   )
 }
