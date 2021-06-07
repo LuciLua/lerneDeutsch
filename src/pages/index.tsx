@@ -1,4 +1,4 @@
-import styles from '../styles/global.module.scss'
+import styles from './home.module.scss'
 import Head from 'next/head'
 import Image from 'next/image' 
 
@@ -12,6 +12,7 @@ export default function Home( { }: HomeProps ) {
             </Head>
             <div className={styles.baseMural}>
                 <div className={styles.mural}>
+                    
                     <div className={styles.title}>
                         <h1>Hallo, du kannst jetzt deutsch lernen.<br/> Gemeinsam bewegen wir uns schneller</h1>
                     </div>
