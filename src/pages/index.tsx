@@ -1,6 +1,7 @@
 import styles from './home.module.scss'
 import Head from 'next/head'
-import Image from 'next/image' 
+import Image from 'next/image'
+import Link from 'next/link'
 
 type HomeProps = { }
 
@@ -19,17 +20,19 @@ export default function Home( { }: HomeProps ) {
                     <div className={styles.card}>
                         <h1>Hallo!</h1>
                         <p>Machen Sie Ihre ersten Schritte</p>
-                        <button>anfangen
-                            <div className={styles.btnDet}>
-                                <Image
-                                    width={0}
-                                    height={0} 
-                                    src={'/flag.svg'} 
-                                    alt={'profile'}
-                                    objectFit="cover"
-                                />
-                            </div> 
-                        </button>
+                        <Link href={'/hallo'}>
+                            <button>anfangen
+                                <div className={styles.btnDet}>
+                                    <Image
+                                        width={0}
+                                        height={0} 
+                                        src={'/flag.svg'} 
+                                        alt={'profile'}
+                                        objectFit="cover"
+                                    />
+                                </div> 
+                            </button>
+                        </Link>
                     </div>
                     <div className={styles.card}>
                         <h1>Wörter</h1>

@@ -1,8 +1,12 @@
 import styles from './style.module.scss'
 import Image from 'next/image'
+import Link from 'next/link'
+
+import nprogress from 'nprogress'
 
 export function Menu(){
     return(
+        <div className={nprogress.page}>
         <div className={styles.menu}>
             <ul className={styles.menuLeft}>
                 <li className={styles.itemLeft}>Sonnezweits</li>
@@ -31,6 +35,7 @@ export function Menu(){
                     </a>
                 </li>
                 <li className={styles.itemRight}>
+                <Link href={'/'}>
                     <a href="">
                         <Image
                             width={15}
@@ -38,10 +43,12 @@ export function Menu(){
                             src={'/house-door.svg'} 
                             alt={'profile'}
                             objectFit="cover"
-                        />
-                    </a>
+                            />
+                        </a>
+                    </Link>
                 </li>
             </ul>
         </div>
+    </div>
     )
 }
