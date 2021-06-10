@@ -51,7 +51,7 @@
   @keyframes fadeIn {
       0% {
         opacity: 0;
-        bottom: 40px;
+        bottom: -40px;
       }
       100%{
           opacity: 1;
@@ -62,7 +62,7 @@
   @media only screen and (max-width: 600px) {
 
     .page{
-    animation: fadeIn 0.5s both;
+    animation: fadeIn 1s both;
     position: absolute;
 
     width: calc(100%);
