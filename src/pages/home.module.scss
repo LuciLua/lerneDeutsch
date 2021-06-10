@@ -191,8 +191,8 @@
 
     .baseMural{
         width: 100%;
+        height: calc(100vh - 40px); /*100vh - 40px do menu top*/
         margin: 0;
-        height: fit-content;
     }
 
     .mural .title{
@@ -201,8 +201,8 @@
 
     .mural{
         width: 100%;
-        margin: 0;
         height: calc(100vh - 40px);
+        margin: 0;
 
         overflow-y: scroll;
     }

@@ -58,3 +58,23 @@
           bottom: 0;
       }
   }
+
+  @media only screen and (max-width: 600px) {
+
+    .page{
+    animation: fadeIn 0.5s both;
+    position: absolute;
+
+    width: calc(100%);
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap; */
+
+    margin: 0;
+
+
+    bottom: 0;
+    }
+  }
