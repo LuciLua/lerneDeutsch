@@ -111,20 +111,16 @@
         position: relative;
         z-index: 28;
 
-        background: var(--blue-p);
+        content: url('/menu.svg');
 
-        content: attr('|||');
-
-        width: 45px;
-        height: 45px;
-    
-        transform: rotate(-90deg);
-    
+        width: 35px;
+        height: 35px;
+        
         position: relative;
         
         margin-left: auto;
         left: 45px;
-        top: -5px;
+        top: 2px;
 
         display: flex;
         align-items: center;
@@ -132,11 +128,13 @@
 
         font-size: 30px;
         color: var(--white);
+
+        filter: invert(0.9);
     
     }
 
     .menuVertical .push::before{
-        content: '|||';
+        content: url('/menu.svg');
         font-size: 25px;
         line-height: 0.5;
     }
