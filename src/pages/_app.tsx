@@ -9,6 +9,8 @@ import Head from 'next/head'
 import NProgress from 'nprogress'
 import Router from 'next/dist/next-server/lib/router/router';
 
+import styles from '../styles/global.module.scss'
+
 
 Router.events.on("routeChangeStart", (url) =>{
   console.log(`Loading: ${url}`);
@@ -23,7 +25,7 @@ function MyApp({ Component, pageProps }) {
 
   return(
     <>
-    <div>
+    <div className={styles.all}>
       <Menu/>
         <main>
         <MenuVertical/>
