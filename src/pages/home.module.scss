@@ -4,7 +4,7 @@
     
     background-color: var(--white);
     width: 100%;
-    height: calc(100vh - 40px); /*100vh - 40px do menu top*/
+    height: 100%;
 
     display: flex;
     align-items: center;
@@ -23,7 +23,7 @@
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.208);
 
     width: 100%;
-    height: calc(100vh - 40px);
+    height: 100%;
 
     display: flex;
     justify-content: center;
@@ -34,6 +34,8 @@
 
     position: relative;
     overflow-y: scroll;
+
+    padding-top: 5vh;
 }
 
 .mural .title{
@@ -182,27 +184,31 @@
 
 @media only screen and (max-width: 600px) {
 
-    .main{
-        overflow: hidden;
-        height: fit-content;
+    // .main{
+    //     overflow: hidden;
+    //     height: fit-content;
 
-        position: relative;
-    }
+    //     position: relative;
+    // }
 
     .baseMural{
         width: 100%;
-        height: calc(100vh - 40px); /*100vh - 40px do menu top*/
+        height: 100%;
         margin: 0;
-    }
 
+        position: relative;
+    }
+    
     .mural .title{
         margin: 0;
     }
-
+    
     .mural{
         width: 100%;
-        height: calc(100vh - 40px);
+        height: 100%;
         margin: 0;
+        
+        position: relative;
 
         overflow-y: scroll;
     }
